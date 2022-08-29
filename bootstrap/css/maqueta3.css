@@ -1,0 +1,37 @@
+#tit{
+    background-color: blue;
+}
+
+#con1{
+    background-color: blueviolet;
+    height:200px ;
+}
+
+#con2{
+    background-color: rgb(173, 86, 255);
+    height:200px ;
+    float: right;
+}
+
+#con3{
+    background-color: rgb(170, 105, 231);
+    height:200px ;
+    float: left;
+}
+
+#lat{
+    background-color: aquamarine;
+    
+}
+
+#cont4{
+    float: left;
+}
+@media (max-width: 767px) {
+    #lat {
+        height: 200px;
+    }
+}
+#pie{
+    background-color: blue;
+}

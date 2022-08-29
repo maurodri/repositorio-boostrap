@@ -1,0 +1,166 @@
+#contai {
+    background-color: #CB0000;
+}
+
+#zapato {
+    float: left;
+}
+
+#modelo {
+    float: right;
+}
+
+#tex {
+    transform: translate(20%, -450%);
+    text-shadow: 0 0 7px rgba(0, 0, 0, 8);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    #tex {
+        transform: translate(10%, -150%);
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 272px) {
+    #tex {
+        transform: translate(10%, -150%);
+        font-size: 8px;
+    }
+}
+
+#con {
+
+    text-shadow: 0 0 7px rgba(0, 0, 0, 8);
+    background-color: rgba(247, 151, 151, 0.479);
+    color: rgb(255, 255, 255);
+    border-color: rgb(211, 209, 209);
+    border-width: 5px;
+    border-style: ridge;
+    height: 233px;
+    float: left;
+}
+
+#tex2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#p1 {
+    text-align: center;
+}
+
+#sus {
+    border-color: rgba(211, 209, 209, 0.493);
+    border-width: 5px;
+    border-style: ridge;
+    font-size: 10px;
+}
+
+@media (max-width: 970px) {
+    #con {
+
+        font-size: 10px;
+        height: 436px;
+    }
+}
+
+@media (max-width: 768px) {
+    #con {
+
+        font-size: 10px;
+        height: 326px;
+    }
+}
+
+@media (max-width: 272px) {
+    #tex2 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 272px) {
+    #sus {
+
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    #sus {
+
+        font-size: 8px;
+    }
+}
+
+#reloj {
+    float: left;
+    background-color: #CB0000;
+}
+
+#zapat {
+    float: left;
+    background-color: #CB0000;
+}
+
+@media(max-width: 2000px) {
+    #add {
+        display: none !important;
+    }
+}
+
+@media(max-width: 995px) {
+    #add {
+        display: flex !important;
+        background-color: #CB0000;
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width: 767px) {
+    #add {
+        display: none !important;
+    }
+}
+
+body {
+    background-color: rgb(117, 117, 117);
+}
+
+@media (max-width: 576px) {
+    #con {
+
+        font-size: 10px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    #tex2 {
+
+        font-size: 8px;
+    }
+}
+
+#ti2 {
+    background-color: white;
+}
+
+#rec {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 150px;
+    position: relative;
+    left: 10px;
+    top: 45px;
+}
+
+#ses {
+    background-color: #CB0000;
+    height: 50px;
+}
